@@ -1,0 +1,39 @@
+Write a blog about objects and its internal representation in Javascript
+
+Objects and its Internal Representation in Javascript:-
+
+        In Javascript, Objects are Fundamental Data type used to Store and Organize the Data.
+
+        Objects are Different than Primitive Datatypes
+
+        It is a Collection of Key value pairs, where the keys are String and the values can be any Datatype, including other Objects.
+
+        Objects are used to Represent Complex Data Structures and can be Created in various ways.
+
+        An object can be created with figure brackets {} with an optional list of properties. 
+        
+        A property is a “key: value” pair, where a key is the property name value can be anything.
+
+
+Internal Representation :-
+
+        Internally, objects are typically implemented using hash tables or similar data structures. 
+
+        Each key is hashed to provide quick access to the corresponding value.
+
+        This allows for efficient lookup and insertion of properties.
+
+
+There are Three ways to Create Objects in Javascript : 
+
+        1. By Object Literal:
+
+            object={property1:value1,property2:value2.....propertyN:valueN}  
+
+        2. By creating instant of Object directly:
+
+            var objectname=new Object();  
+
+        3. By using an Object Constructor:
+
+            Here we need to Create function with arguments. Each argument value can be assigned in the current object by using this keyword.

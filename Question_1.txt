@@ -1,0 +1,34 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP :-
+        HTTP Stands for Hyper Text Transfer Protocol.
+        
+        By using this HTTP User can Send Request to the Server & Server send the Response to the User.
+
+        There are Several Stages of HTTP are there, HTTP1.1 which was created in 1997 & HTTP2 was created in 2015.
+
+HTTP1.1 :-
+
+        It works on the Textual Format.
+
+        There is head of line blocking that blocks all the requests behind it, until it doesn’t get its all resources.
+
+        It Compresses Data itself.
+
+        HTTP1.1 only allows one Request & Response to be sent at a Time.
+
+        In TLS Encryption, HTTPS is Optional in HTTP1.1
+
+        
+
+HTTP2 :-
+
+        It works on Binary Protocol.
+
+        It allows multiplexing, so one TCP connection is required for multiple requests.
+
+        It Uses HPACK to Compress the Data.
+
+        HTTP2 allows Multiple Request & Response to be sent over a Single Connection.
+
+        In TLS Encryption, HTTPS is Mandatory in HTTP2.
